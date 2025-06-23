@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "New Prospect Introduction",
+    "subject_template": "Custom Solutions for {company_name} - Let's Connect",
+    "style": "formal",
+    "template": {
+      "greeting": "Dear {contact_name},",
+      "opening": "I hope this email finds you well. I recently came across {company_name} and was impressed by your work in {industry}. Your recent {recent_activity} caught my attention, and I believe we could help you achieve even greater success.",
+      "value_proposition": "At [Your Company], we specialize in creating custom promotional solutions that help companies like yours {pain_point_1} and {pain_point_2}. Our products are designed to {benefit_1} while {benefit_2}.",
+      "personalization": "Based on your company's focus on {industry} and your {company_size} team, I'd love to share some specific solutions that could benefit {company_name}.",
+      "call_to_action": "Would you be available for a brief 15-minute call next week to discuss how we can help {company_name} {pain_point_3}? I'd be happy to share some examples of our work with similar companies in your industry.",
+      "closing": "I look forward to the opportunity to connect and learn more about your goals for {company_name}.",
+      "signature": "Best regards,\n[Your Name]\n[Your Title]\n[Your Company]\n[Phone Number]\n[Email]"
+    },
+    "use_cases": ["Cold outreach", "New prospect", "Industry research"]
+  },
+  {
+    "id": 2,
+    "name": "Follow-up After Meeting",
+    "subject_template": "Great meeting today - Next steps for {company_name}",
+    "style": "casual",
+    "template": {
+      "greeting": "Hi {contact_name},",
+      "opening": "It was great meeting with you today! Thank you for taking the time to discuss {company_name}'s needs and share your vision for {pain_point_1}.",
+      "value_proposition": "As we discussed, our {product_category} solutions are specifically designed to help companies like yours {benefit_1} and {benefit_2}. The {product_name} we reviewed would be perfect for your {use_case}.",
+      "personalization": "I was particularly excited about how our {customization_option} can align with {company_name}'s {industry} focus and {company_size} team structure.",
+      "call_to_action": "As next steps, I'll prepare a detailed proposal for the {product_name} with your {customization_preference} by {timeline}. Would you be available for a follow-up call on {suggested_date} to review the proposal?",
+      "closing": "I'm confident we can create something that perfectly matches {company_name}'s needs and budget of {budget_range}.",
+      "signature": "Looking forward to working together!\n\nBest,\n[Your Name]\n[Your Title]\n[Your Company]\n[Phone Number]"
+    },
+    "use_cases": ["Post-meeting follow-up", "Proposal delivery", "Relationship building"]
+  },
+  {
+    "id": 3,
+    "name": "Product Recommendation",
+    "subject_template": "Perfect match for {company_name}: {product_name}",
+    "style": "consultative",
+    "template": {
+      "greeting": "Hello {contact_name},",
+      "opening": "I wanted to share a product recommendation that I believe would be an excellent fit for {company_name} based on your {industry} focus and recent {recent_activity}.",
+      "value_proposition": "Our {product_name} is specifically designed for companies like yours that need to {pain_point_1}. With features like {customization_option_1} and {customization_option_2}, it's perfect for {use_case}.",
+      "personalization": "Given {company_name}'s {company_size} team and your focus on {pain_point_2}, this solution would help you {benefit_1} while staying within your {budget_range} budget.",
+      "call_to_action": "I've attached a detailed specification sheet and some mockups showing how the {product_name} would look with {company_name}'s branding. Would you like me to schedule a quick call to discuss the details and answer any questions?",
+      "closing": "I'm excited about the potential impact this could have for your team!",
+      "signature": "Best regards,\n[Your Name]\n[Your Title]\n[Your Company]\n[Phone Number]\n[Email]"
+    },
+    "use_cases": ["Product introduction", "Targeted recommendation", "Solution selling"]
+  },
+  {
+    "id": 4,
+    "name": "Custom Quote Request",
+    "subject_template": "Custom quote for {company_name} - {product_name}",
+    "style": "professional",
+    "template": {
+      "greeting": "Dear {contact_name},",
+      "opening": "Thank you for your interest in our {product_name} for {company_name}. I've prepared a detailed quote based on your specific requirements and {company_size} team needs.",
+      "value_proposition": "The custom solution includes {customization_option_1}, {customization_option_2}, and {customization_option_3}, all designed to help you {pain_point_1} and {pain_point_2}.",
+      "personalization": "I've tailored the quote to align with your {budget_range} budget and {decision_timeline} timeline, taking into account your {industry} requirements and {use_case} needs.",
+      "call_to_action": "The detailed quote is attached, including pricing breakdown, customization options, and delivery timeline. I'm available for a call this week to discuss any questions or modifications you might have.",
+      "closing": "I look forward to helping {company_name} achieve your goals with this custom solution.",
+      "signature": "Sincerely,\n[Your Name]\n[Your Title]\n[Your Company]\n[Phone Number]\n[Email]"
+    },
+    "use_cases": ["Quote delivery", "Custom pricing", "Detailed proposal"]
+  },
+  {
+    "id": 5,
+    "name": "Seasonal Promotion",
+    "subject_template": "Special offer for {company_name} - {season} promotion",
+    "style": "enthusiastic",
+    "template": {
+      "greeting": "Hi {contact_name},",
+      "opening": "I hope you're having a great {season}! I wanted to reach out with an exclusive offer for {company_name} that I think you'll be excited about.",
+      "value_proposition": "For a limited time, we're offering {discount_percentage} off our {product_name} with free {bonus_feature}. This is perfect for companies like yours looking to {pain_point_1} while {pain_point_2}.",
+      "personalization": "Given {company_name}'s {industry} focus and your recent {recent_activity}, this promotion aligns perfectly with your {use_case} needs and {budget_range} budget.",
+      "call_to_action": "This offer expires on {expiration_date}, so I'd love to schedule a quick call this week to discuss how we can customize this solution for {company_name}. Can you spare 15 minutes?",
+      "closing": "I'm confident this will be a great opportunity for {company_name} to {benefit_1} at an exceptional value!",
+      "signature": "Looking forward to hearing from you!\n\nBest,\n[Your Name]\n[Your Title]\n[Your Company]\n[Phone Number]"
+    },
+    "use_cases": ["Seasonal campaigns", "Limited-time offers", "Urgency creation"]
+  }
+] 

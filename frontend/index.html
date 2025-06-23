@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Sales Agent</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Bar -->
+    <header class="header">
+        <div class="header-content">
+            <div class="header-left">
+                <div class="logo">
+                    <i class="fas fa-robot"></i>
+                    <h1>AI Sales Agent</h1>
+                </div>
+            </div>
+            <div class="header-center">
+                <div id="currentCustomer" class="current-customer">
+                    <span class="customer-name">Select a customer to begin</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="api-status">
+                    <span class="status-dot"></span>
+                    <span class="status-text">API Connected</span>
+                </div>
+                <button class="btn-icon" onclick="toggleSidebar()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <!-- Customer Selection -->
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-users"></i> Select Customer</h3>
+                    <div class="form-group">
+                        <select id="customerSelect" class="form-control">
+                            <option value="">Choose customer...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Customer Profile Summary -->
+                <div class="sidebar-section" id="customerProfile" style="display: none;">
+                    <h3><i class="fas fa-user-circle"></i> Profile Summary</h3>
+                    <div class="profile-card">
+                        <div class="profile-item">
+                            <i class="fas fa-building"></i>
+                            <span id="profileCompany">Company Name</span>
+                        </div>
+                        <div class="profile-item">
+                            <i class="fas fa-industry"></i>
+                            <span id="profileIndustry">Industry</span>
+                        </div>
+                        <div class="profile-item">
+                            <i class="fas fa-users"></i>
+                            <span id="profileSize">Company Size</span>
+                        </div>
+                        <div class="profile-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span id="profileBudget">Budget Range</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Processing Status -->
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-brain"></i> AI Analysis</h3>
+                    <div class="processing-status">
+                        <div class="status-item" id="statusProfile">
+                            <span class="status-icon">⏸️</span>
+                            <span class="status-text">Customer Profile</span>
+                        </div>
+                        <div class="status-item" id="statusAnalysis">
+                            <span class="status-icon">⏸️</span>
+                            <span class="status-text">Pain Point Analysis</span>
+                        </div>
+                        <div class="status-item" id="statusProducts">
+                            <span class="status-icon">⏸️</span>
+                            <span class="status-text">Product Matching</span>
+                        </div>
+                        <div class="status-item" id="statusEmail">
+                            <span class="status-icon">⏸️</span>
+                            <span class="status-text">Email Generation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="sidebar-section" id="quickStats" style="display: none;">
+                    <h3><i class="fas fa-chart-bar"></i> Quick Stats</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value" id="confidenceScore">0%</div>
+                            <div class="stat-label">Confidence</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="responseRate">0%</div>
+                            <div class="stat-label">Response Rate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content-area">
+            <!-- Tab Navigation -->
+            <div class="tab-bar">
+                <button class="tab-btn active" id="tabAnalysisBtn">AI Analysis</button>
+                <button class="tab-btn" id="tabCustomersBtn">Customers Database <span class="tab-badge">Salesforce CRM</span></button>
+                <button class="tab-btn" id="tabProductsBtn">Products Catalog <span class="tab-badge">Product Database</span></button>
+            </div>
+            <!-- Tab Content Areas -->
+            <div class="tab-content" id="tabContentAnalysis" style="display: block;">
+                <div class="main-content">
+                    <!-- Customer Intelligence Card -->
+                    <div class="content-card" id="intelligenceCard">
+                        <div class="card-header">
+                            <h2><i class="fas fa-target"></i> Customer Intelligence</h2>
+                            <div class="confidence-indicator">
+                                <span>Confidence:</span>
+                                <div class="confidence-bar">
+                                    <div class="confidence-fill" id="confidenceBar"></div>
+                                </div>
+                                <span id="confidencePercent">0%</span>
+                            </div>
+                            <button class="btn btn-primary" id="runAnalysisBtn">Run Analysis</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="intelligence-content" id="intelligenceContent">
+                                <div class="skeleton-loader">
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Recommendations Card -->
+                    <div class="content-card" id="recommendationsCard">
+                        <div class="card-header">
+                            <h2><i class="fas fa-shopping-cart"></i> Smart Recommendations</h2>
+                            <button class="btn btn-primary" id="runRecommendationsBtn">Get Recommendations</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="recommendations-content" id="recommendationsContent">
+                                <div class="skeleton-loader">
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Generated Email Card -->
+                    <div class="content-card" id="emailCard">
+                        <div class="card-header">
+                            <h2><i class="fas fa-envelope"></i> Personalized Email</h2>
+                            <div class="email-metrics">
+                                <span id="personalizationScore">0%</span>
+                                <span>Personalization</span>
+                            </div>
+                            <button class="btn btn-primary" id="runEmailBtn">Generate Email</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="email-content" id="emailContent">
+                                <div class="skeleton-loader">
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line"></div>
+                                    <div class="skeleton-line"></div>
+                                </div>
+                            </div>
+                            <div class="email-actions" id="emailActions" style="display: none;">
+                                <button class="btn btn-primary" onclick="copyEmail()">
+                                    <i class="fas fa-copy"></i> Copy Email
+                                </button>
+                                <button class="btn btn-secondary" onclick="downloadEmail()">
+                                    <i class="fas fa-download"></i> Export
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Branded Mockups Card -->
+                    <div class="content-card" id="mockupsCard">
+                        <div class="card-header">
+                            <h2><i class="fas fa-palette"></i> Branded Mockups</h2>
+                            <button class="btn btn-primary" id="runMockupsBtn">Generate Mockups</button>
+                        </div>
+                        <div class="card-body">
+                            <div class="mockup-controls">
+                                <!-- The old button is now replaced by the card-header button -->
+                            </div>
+                            <div class="mockup-gallery" id="mockupGallery">
+                                <div class="skeleton-loader">
+                                    <div class="skeleton-image"></div>
+                                    <div class="skeleton-image"></div>
+                                    <div class="skeleton-image"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="tabContentCustomers" style="display: none;">
+                <div id="customersTableContainer"></div>
+            </div>
+            <div class="tab-content" id="tabContentProducts" style="display: none;">
+                <div class="productdb-indicator">Product Database</div>
+                <div id="productsGridContainer"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h3 id="loadingTitle">Processing...</h3>
+            <p id="loadingMessage">AI is analyzing customer data</p>
+        </div>
+    </div>
+
+    <!-- Notification Area -->
+    <div id="notificationArea" class="notification-area"></div>
+
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> <script src="js/tab-debug.js"></script>

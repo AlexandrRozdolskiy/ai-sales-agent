@@ -1,0 +1,83 @@
+{
+  "customer_id": 1,
+  "recommendations": [
+    {
+      "product_id": 4,
+      "name": "Custom Branded T-Shirts",
+      "category": "Apparel",
+      "price_range": "$12-$20",
+      "match_score": 0.95,
+      "reasoning": "Custom branded T-shirts are perfect for increasing brand visibility and for team building. They are cost-effective and can be used for company events.",
+      "customization_suggestions": [
+        "Black or Navy with a white or silver company logo for high visibility"
+      ]
+    },
+    {
+      "product_id": 7,
+      "name": "Digital Device Accessories",
+      "category": "Technology",
+      "price_range": "$15-$40",
+      "match_score": 0.92,
+      "reasoning": "Digital device accessories are practical and relevant to the tech industry. They offer device protection and brand visibility, and can be used as employee equipment or client gifts.",
+      "customization_suggestions": [
+        "Black or Gray to match tech devices, with the company logo in a contrasting color"
+      ]
+    },
+    {
+      "product_id": 1,
+      "name": "Premium Executive Notebook",
+      "category": "Office Supplies",
+      "price_range": "$15-$25",
+      "match_score": 0.9,
+      "reasoning": "Given the company's previous purchases and their industry, a premium executive notebook would be a great fit. It can be used for professional meetings and presentations, and it's a great way to enhance the company's professional image.",
+      "customization_suggestions": [
+        "Black or Navy to match the tech industry style"
+      ]
+    },
+    {
+      "product_id": 8,
+      "name": "Coffee Mug Set",
+      "category": "Kitchen & Dining",
+      "price_range": "$8-$15",
+      "match_score": 0.88,
+      "reasoning": "Coffee mug sets are practical and offer high visibility. They can be used in the office or given as employee gifts, and they're a cost-effective way to increase brand awareness.",
+      "customization_suggestions": [
+        "Black or Blue with a white or silver company logo for high visibility"
+      ]
+    },
+    {
+      "product_id": 11,
+      "name": "Health & Wellness Kit",
+      "category": "Health & Wellness",
+      "price_range": "$30-$60",
+      "match_score": 0.85,
+      "reasoning": "A health & wellness kit can be a great solution for employee retention. It promotes health and employee engagement, and can be used for employee wellness programs.",
+      "customization_suggestions": [
+        "Black or Blue to match the company colors, with health materials tailored to the tech industry"
+      ]
+    },
+    {
+      "product_id": 14,
+      "name": "Training & Education Materials",
+      "category": "Educational",
+      "price_range": "$15-$35",
+      "match_score": 0.8,
+      "reasoning": "Training & education materials can be used for employee training and professional development. They offer educational value and brand reinforcement.",
+      "customization_suggestions": [
+        "Blue or Green to match the company colors, with materials focused on software development and AI trends"
+      ]
+    }
+  ],
+  "top_recommendation": {
+    "product_id": 4,
+    "name": "Custom Branded T-Shirts",
+    "category": "Apparel",
+    "price_range": "$12-$20",
+    "match_score": 0.95,
+    "reasoning": "Custom branded T-shirts are perfect for increasing brand visibility and for team building. They are cost-effective and can be used for company events.",
+    "customization_suggestions": [
+      "Black or Navy with a white or silver company logo for high visibility"
+    ]
+  },
+  "timestamp": "2025-06-23T18:25:00.354234"
+}

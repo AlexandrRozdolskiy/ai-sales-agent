@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "company": {
+      "name": "TechFlow Solutions",
+      "industry": "Software Development",
+      "size": "50-200 employees",
+      "location": "San Francisco, CA",
+      "website": "techflow.com"
+    },
+    "contact": {
+      "name": "Sarah Johnson",
+      "role": "VP of Marketing",
+      "email": "sarah.johnson@techflow.com",
+      "phone": "+1-415-555-0123"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Attended tech conference last month",
+        "Downloaded whitepaper on AI trends",
+        "Scheduled product demo"
+      ],
+      "pain_points": [
+        "Need to increase brand visibility",
+        "Looking for employee retention solutions",
+        "Want to improve client engagement"
+      ],
+      "budget_range": "$10,000-$25,000",
+      "decision_timeline": "2-3 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-15",
+      "interaction_frequency": "Weekly",
+      "preferred_communication": "Email",
+      "previous_purchases": ["Custom notebooks", "Branded pens"]
+    }
+  },
+  {
+    "id": 2,
+    "company": {
+      "name": "GreenBuild Construction",
+      "industry": "Construction",
+      "size": "200-500 employees",
+      "location": "Austin, TX",
+      "website": "greenbuild.com"
+    },
+    "contact": {
+      "name": "Mike Rodriguez",
+      "role": "Operations Manager",
+      "email": "mike.rodriguez@greenbuild.com",
+      "phone": "+1-512-555-0456"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Expanding to new markets",
+        "Hiring 50+ new employees",
+        "Implementing safety protocols"
+      ],
+      "pain_points": [
+        "Need safety equipment for new hires",
+        "Looking for team building solutions",
+        "Want to improve site safety awareness"
+      ],
+      "budget_range": "$5,000-$15,000",
+      "decision_timeline": "1-2 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-20",
+      "interaction_frequency": "Bi-weekly",
+      "preferred_communication": "Phone",
+      "previous_purchases": ["Safety vests", "Hard hats"]
+    }
+  },
+  {
+    "id": 3,
+    "company": {
+      "name": "HealthFirst Medical",
+      "industry": "Healthcare",
+      "size": "100-250 employees",
+      "location": "Boston, MA",
+      "website": "healthfirst.com"
+    },
+    "contact": {
+      "name": "Dr. Emily Chen",
+      "role": "Chief Medical Officer",
+      "email": "emily.chen@healthfirst.com",
+      "phone": "+1-617-555-0789"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Opening new clinic locations",
+        "Implementing patient care programs",
+        "Staff training initiatives"
+      ],
+      "pain_points": [
+        "Need patient education materials",
+        "Looking for staff recognition programs",
+        "Want to improve patient experience"
+      ],
+      "budget_range": "$15,000-$30,000",
+      "decision_timeline": "3-4 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-18",
+      "interaction_frequency": "Monthly",
+      "preferred_communication": "Email",
+      "previous_purchases": ["Medical scrubs", "Patient brochures"]
+    }
+  },
+  {
+    "id": 4,
+    "company": {
+      "name": "StartupHub Inc",
+      "industry": "Technology Startup",
+      "size": "10-50 employees",
+      "location": "Seattle, WA",
+      "website": "startuphub.io"
+    },
+    "contact": {
+      "name": "Alex Thompson",
+      "role": "Founder & CEO",
+      "email": "alex@startuphub.io",
+      "phone": "+1-206-555-0321"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Series A funding round",
+        "Product launch preparation",
+        "Team expansion"
+      ],
+      "pain_points": [
+        "Need investor presentation materials",
+        "Looking for team morale boosters",
+        "Want to establish company culture"
+      ],
+      "budget_range": "$2,000-$8,000",
+      "decision_timeline": "1 month"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-22",
+      "interaction_frequency": "Weekly",
+      "preferred_communication": "Slack",
+      "previous_purchases": ["T-shirts", "Stickers"]
+    }
+  },
+  {
+    "id": 5,
+    "company": {
+      "name": "Global Consulting Group",
+      "industry": "Management Consulting",
+      "size": "500+ employees",
+      "location": "New York, NY",
+      "website": "globalconsulting.com"
+    },
+    "contact": {
+      "name": "Jennifer Williams",
+      "role": "Director of Client Relations",
+      "email": "jennifer.williams@globalconsulting.com",
+      "phone": "+1-212-555-0654"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Major client acquisition",
+        "International expansion",
+        "Executive retreat planning"
+      ],
+      "pain_points": [
+        "Need premium client gifts",
+        "Looking for executive presentation materials",
+        "Want to enhance brand prestige"
+      ],
+      "budget_range": "$25,000-$50,000",
+      "decision_timeline": "2-3 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-16",
+      "interaction_frequency": "Monthly",
+      "preferred_communication": "Email",
+      "previous_purchases": ["Luxury pens", "Executive notebooks"]
+    }
+  },
+  {
+    "id": 6,
+    "company": {
+      "name": "EduTech Academy",
+      "industry": "Education Technology",
+      "size": "50-100 employees",
+      "location": "Denver, CO",
+      "website": "edutechacademy.edu"
+    },
+    "contact": {
+      "name": "David Park",
+      "role": "Head of Student Success",
+      "email": "david.park@edutechacademy.edu",
+      "phone": "+1-303-555-0987"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "New course launches",
+        "Student enrollment increase",
+        "Campus expansion"
+      ],
+      "pain_points": [
+        "Need student engagement tools",
+        "Looking for faculty recognition items",
+        "Want to improve campus spirit"
+      ],
+      "budget_range": "$8,000-$20,000",
+      "decision_timeline": "2 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-19",
+      "interaction_frequency": "Bi-weekly",
+      "preferred_communication": "Email",
+      "previous_purchases": ["Student planners", "Faculty mugs"]
+    }
+  },
+  {
+    "id": 7,
+    "company": {
+      "name": "EcoSolutions Manufacturing",
+      "industry": "Manufacturing",
+      "size": "250-500 employees",
+      "location": "Portland, OR",
+      "website": "ecosolutions.com"
+    },
+    "contact": {
+      "name": "Lisa Anderson",
+      "role": "HR Director",
+      "email": "lisa.anderson@ecosolutions.com",
+      "phone": "+1-503-555-0123"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Sustainability initiatives",
+        "Employee wellness programs",
+        "Safety training updates"
+      ],
+      "pain_points": [
+        "Need eco-friendly promotional items",
+        "Looking for safety awareness materials",
+        "Want to boost employee morale"
+      ],
+      "budget_range": "$12,000-$25,000",
+      "decision_timeline": "2-3 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-17",
+      "interaction_frequency": "Monthly",
+      "preferred_communication": "Phone",
+      "previous_purchases": ["Reusable water bottles", "Safety gear"]
+    }
+  },
+  {
+    "id": 8,
+    "company": {
+      "name": "FinTech Innovations",
+      "industry": "Financial Technology",
+      "size": "100-250 employees",
+      "location": "Chicago, IL",
+      "website": "fintechinnovations.com"
+    },
+    "contact": {
+      "name": "Robert Kim",
+      "role": "VP of Business Development",
+      "email": "robert.kim@fintechinnovations.com",
+      "phone": "+1-312-555-0456"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Product launch success",
+        "Partnership negotiations",
+        "Team building events"
+      ],
+      "pain_points": [
+        "Need professional presentation materials",
+        "Looking for partnership gifts",
+        "Want to maintain team culture"
+      ],
+      "budget_range": "$15,000-$35,000",
+      "decision_timeline": "1-2 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-21",
+      "interaction_frequency": "Weekly",
+      "preferred_communication": "Email",
+      "previous_purchases": ["Professional portfolios", "Team jackets"]
+    }
+  },
+  {
+    "id": 9,
+    "company": {
+      "name": "Creative Agency Pro",
+      "industry": "Marketing & Advertising",
+      "size": "25-75 employees",
+      "location": "Los Angeles, CA",
+      "website": "creativeagencypro.com"
+    },
+    "contact": {
+      "name": "Maria Garcia",
+      "role": "Creative Director",
+      "email": "maria.garcia@creativeagencypro.com",
+      "phone": "+1-323-555-0789"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Won major client account",
+        "Team expansion",
+        "Office renovation"
+      ],
+      "pain_points": [
+        "Need creative portfolio materials",
+        "Looking for client presentation tools",
+        "Want to showcase creativity"
+      ],
+      "budget_range": "$5,000-$15,000",
+      "decision_timeline": "1 month"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-23",
+      "interaction_frequency": "Bi-weekly",
+      "preferred_communication": "Email",
+      "previous_purchases": ["Portfolio cases", "Creative notebooks"]
+    }
+  },
+  {
+    "id": 10,
+    "company": {
+      "name": "Legal Partners LLP",
+      "industry": "Legal Services",
+      "size": "75-150 employees",
+      "location": "Washington, DC",
+      "website": "legalpartners.com"
+    },
+    "contact": {
+      "name": "Thomas Wilson",
+      "role": "Managing Partner",
+      "email": "thomas.wilson@legalpartners.com",
+      "phone": "+1-202-555-0321"
+    },
+    "behavioral_data": {
+      "recent_activities": [
+        "Merger with another firm",
+        "New practice areas",
+        "Client retention programs"
+      ],
+      "pain_points": [
+        "Need professional client gifts",
+        "Looking for team recognition items",
+        "Want to maintain prestige"
+      ],
+      "budget_range": "$20,000-$40,000",
+      "decision_timeline": "3 months"
+    },
+    "engagement_history": {
+      "last_contact": "2024-01-14",
+      "interaction_frequency": "Monthly",
+      "preferred_communication": "Phone",
+      "previous_purchases": ["Luxury pens", "Professional portfolios"]
+    }
+  }
+] 

@@ -1,0 +1,25 @@
+{
+  "customer_id": 1,
+  "analysis": {
+    "company_profile": "TechFlow Solutions is a mid-sized software development company based in San Francisco. They are likely to be technologically advanced and value high-quality, innovative solutions. Their location and industry suggest they are in a competitive market, so standing out and retaining employees may be key challenges.",
+    "decision_making_factors": "Their recent activities and pain points suggest that they value education (tech conference, AI whitepaper) and are actively seeking solutions (scheduled product demo). Their decisions are likely influenced by the potential for brand visibility, employee retention, and client engagement.",
+    "budget_analysis": "With a budget range of $10,000-$25,000, they are likely to be looking for high-value, impactful solutions. They may be open to a range of product options, from lower-cost items for broad distribution (like their previous purchases) to higher-end items for key stakeholders.",
+    "timeline_insights": "Their decision timeline of 2-3 months suggests they are not in immediate need but are actively planning. This provides an opportunity to build a relationship and offer thoughtful, tailored recommendations.",
+    "communication_preferences": "Their preference for email communication and weekly interaction frequency suggest they value regular, concise updates and may be responsive to email marketing or promotions.",
+    "previous_purchase_insights": "Their previous purchases of custom notebooks and branded pens suggest they value practical items that keep their brand top-of-mind. They may be open to similar, everyday-use items or complementary products."
+  },
+  "pain_points": [
+    "Need to increase brand visibility",
+    "Looking for employee retention solutions",
+    "Want to improve client engagement"
+  ],
+  "opportunities": [
+    "Offer high-quality, branded tech accessories to increase brand visibility",
+    "Propose employee reward or recognition items to aid in retention",
+    "Suggest client gifts or promotional items to enhance client engagement",
+    "Provide educational content or webinars on effective use of promotional products",
+    "Leverage their interest in AI by offering innovative, tech-related promotional items"
+  ],
+  "confidence_score": 0.85,
+  "timestamp": "2025-06-23T17:28:28.934463"
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Executive Notebook",
+    "category": "Office Supplies",
+    "price_range": "$15-$25",
+    "description": "High-quality leather-bound notebook with company logo embossing",
+    "customization_options": {
+      "logo_placement": ["Front cover", "Spine", "Back cover"],
+      "colors": ["Black", "Brown", "Navy", "Burgundy"],
+      "text_options": ["Company name", "Tagline", "Contact info"],
+      "materials": ["Genuine leather", "PU leather", "Fabric"]
+    },
+    "target_audience": {
+      "industries": ["Consulting", "Legal", "Finance", "Technology"],
+      "company_size": ["50+ employees"],
+      "use_cases": ["Client gifts", "Executive presentations", "Professional meetings"]
+    },
+    "benefits": [
+      "Enhances professional image",
+      "Durable and long-lasting",
+      "Customizable branding",
+      "Premium feel"
+    ],
+    "minimum_order": 50,
+    "lead_time": "2-3 weeks"
+  },
+  {
+    "id": 2,
+    "name": "Eco-Friendly Water Bottle",
+    "category": "Lifestyle",
+    "price_range": "$8-$15",
+    "description": "Reusable stainless steel water bottle with custom logo",
+    "customization_options": {
+      "logo_placement": ["Side panel", "Cap", "Bottom"],
+      "colors": ["Silver", "Black", "Blue", "Green", "Pink"],
+      "text_options": ["Company name", "Environmental message", "Website"],
+      "sizes": ["500ml", "750ml", "1L"]
+    },
+    "target_audience": {
+      "industries": ["Healthcare", "Manufacturing", "Education", "Technology"],
+      "company_size": ["All sizes"],
+      "use_cases": ["Employee wellness", "Environmental initiatives", "Health awareness"]
+    },
+    "benefits": [
+      "Promotes sustainability",
+      "Reduces plastic waste",
+      "Health-conscious choice",
+      "High visibility"
+    ],
+    "minimum_order": 100,
+    "lead_time": "1-2 weeks"
+  },
+  {
+    "id": 3,
+    "name": "Professional Portfolio Case",
+    "category": "Business Accessories",
+    "price_range": "$20-$35",
+    "description": "Leather portfolio with document storage and company branding",
+    "customization_options": {
+      "logo_placement": ["Front cover", "Inside flap", "Business card holder"],
+      "colors": ["Black", "Brown", "Gray", "Navy"],
+      "text_options": ["Company name", "Professional title", "Contact details"],
+      "features": ["Document pockets", "Pen holder", "Business card slots"]
+    },
+    "target_audience": {
+      "industries": ["Consulting", "Creative", "Sales", "Legal"],
+      "company_size": ["25+ employees"],
+      "use_cases": ["Client presentations", "Sales meetings", "Professional networking"]
+    },
+    "benefits": [
+      "Professional appearance",
+      "Organized document storage",
+      "Brand reinforcement",
+      "Durable construction"
+    ],
+    "minimum_order": 25,
+    "lead_time": "3-4 weeks"
+  },
+  {
+    "id": 4,
+    "name": "Custom Branded T-Shirts",
+    "category": "Apparel",
+    "price_range": "$12-$20",
+    "description": "Comfortable cotton t-shirts with embroidered or printed company logo",
+    "customization_options": {
+      "logo_placement": ["Left chest", "Center front", "Back", "Sleeve"],
+      "colors": ["White", "Black", "Navy", "Gray", "Custom colors"],
+      "text_options": ["Company name", "Tagline", "Employee name"],
+      "styles": ["Polo", "V-neck", "Crew neck", "Long sleeve"]
+    },
+    "target_audience": {
+      "industries": ["Technology", "Startups", "Manufacturing", "Construction"],
+      "company_size": ["All sizes"],
+      "use_cases": ["Team building", "Company events", "Uniforms", "Brand awareness"]
+    },
+    "benefits": [
+      "Team unity",
+      "Brand visibility",
+      "Comfortable wear",
+      "Cost-effective"
+    ],
+    "minimum_order": 50,
+    "lead_time": "2-3 weeks"
+  },
+  {
+    "id": 5,
+    "name": "Luxury Pen Set",
+    "category": "Writing Instruments",
+    "price_range": "$25-$50",
+    "description": "Premium ballpoint or fountain pens with engraved company logo",
+    "customization_options": {
+      "logo_placement": ["Pen barrel", "Cap", "Clip"],
+      "colors": ["Silver", "Gold", "Black", "Blue", "Rose gold"],
+      "text_options": ["Company name", "Recipient name", "Date"],
+      "styles": ["Ballpoint", "Fountain", "Rollerball", "Gel"]
+    },
+    "target_audience": {
+      "industries": ["Finance", "Legal", "Consulting", "Executive gifts"],
+      "company_size": ["50+ employees"],
+      "use_cases": ["Client gifts", "Employee recognition", "Executive presentations"]
+    },
+    "benefits": [
+      "Premium quality",
+      "Professional image",
+      "Long-lasting",
+      "Memorable gift"
+    ],
+    "minimum_order": 25,
+    "lead_time": "2-3 weeks"
+  },
+  {
+    "id": 6,
+    "name": "Safety Equipment Kit",
+    "category": "Safety & PPE",
+    "price_range": "$30-$60",
+    "description": "Complete safety kit including vest, hard hat, and gloves with company branding",
+    "customization_options": {
+      "logo_placement": ["Vest front/back", "Hard hat", "Gloves"],
+      "colors": ["Orange", "Yellow", "Green", "Blue", "Red"],
+      "text_options": ["Company name", "Employee name", "Safety message"],
+      "sizes": ["S", "M", "L", "XL", "XXL"]
+    },
+    "target_audience": {
+      "industries": ["Construction", "Manufacturing", "Utilities", "Transportation"],
+      "company_size": ["100+ employees"],
+      "use_cases": ["Safety compliance", "Employee protection", "Site identification"]
+    },
+    "benefits": [
+      "Safety compliance",
+      "Brand visibility",
+      "Employee protection",
+      "Professional appearance"
+    ],
+    "minimum_order": 100,
+    "lead_time": "2-3 weeks"
+  },
+  {
+    "id": 7,
+    "name": "Digital Device Accessories",
+    "category": "Technology",
+    "price_range": "$15-$40",
+    "description": "Laptop sleeves, phone cases, and tech accessories with custom branding",
+    "customization_options": {
+      "logo_placement": ["Front panel", "Back panel", "Interior"],
+      "colors": ["Black", "Gray", "Blue", "Custom colors"],
+      "text_options": ["Company name", "Tech support contact", "Website"],
+      "devices": ["Laptop", "Tablet", "Phone", "Universal"]
+    },
+    "target_audience": {
+      "industries": ["Technology", "Consulting", "Education", "Healthcare"],
+      "company_size": ["All sizes"],
+      "use_cases": ["Employee equipment", "Client gifts", "Tech support branding"]
+    },
+    "benefits": [
+      "Device protection",
+      "Professional appearance",
+      "Brand visibility",
+      "Practical use"
+    ],
+    "minimum_order": 50,
+    "lead_time": "2-3 weeks"
+  },
+  {
+    "id": 8,
+    "name": "Coffee Mug Set",
+    "category": "Kitchen & Dining",
+    "price_range": "$8-$15",
+    "description": "Ceramic coffee mugs with printed or embossed company logo",
+    "customization_options": {
+      "logo_placement": ["Side", "Bottom", "Handle"],
+      "colors": ["White", "Black", "Blue", "Green", "Custom colors"],
+      "text_options": ["Company name", "Tagline", "Employee name"],
+      "styles": ["Standard", "Travel", "Insulated", "Oversized"]
+    },
+    "target_audience": {
+      "industries": ["All industries"],
+      "company_size": ["All sizes"],
+      "use_cases": ["Office use", "Employee gifts", "Client hospitality", "Brand awareness"]
+    },
+    "benefits": [
+      "Daily use",
+      "High visibility",
+      "Cost-effective",
+      "Practical gift"
+    ],
+    "minimum_order": 100,
+    "lead_time": "1-2 weeks"
+  },
+  {
+    "id": 9,
+    "name": "Desk Organizer Set",
+    "category": "Office Organization",
+    "price_range": "$20-$35",
+    "description": "Multi-compartment desk organizer with company branding",
+    "customization_options": {
+      "logo_placement": ["Front panel", "Top surface", "Drawer fronts"],
+      "colors": ["Black", "Gray", "White", "Wood finish"],
+      "text_options": ["Company name", "Department", "Employee name"],
+      "compartments": ["Pen holder", "Paper tray", "Drawer", "Phone stand"]
+    },
+    "target_audience": {
+      "industries": ["Office-based industries"],
+      "company_size": ["25+ employees"],
+      "use_cases": ["Employee workspace", "Office organization", "Professional environment"]
+    },
+    "benefits": [
+      "Improved organization",
+      "Professional appearance",
+      "Brand reinforcement",
+      "Practical functionality"
+    ],
+    "minimum_order": 25,
+    "lead_time": "2-3 weeks"
+  },
+  {
+    "id": 10,
+    "name": "Outdoor Gear Collection",
+    "category": "Outdoor & Recreation",
+    "price_range": "$25-$50",
+    "description": "Backpacks, duffel bags, and outdoor accessories with company branding",
+    "customization_options": {
+      "logo_placement": ["Front panel", "Side pocket", "Back panel"],
+      "colors": ["Black", "Navy", "Gray", "Green", "Orange"],
+      "text_options": ["Company name", "Outdoor message", "Contact info"],
+      "sizes": ["Small", "Medium", "Large", "Extra Large"]
+    },
+    "target_audience": {
+      "industries": ["Outdoor recreation", "Construction", "Field services", "Adventure"],
+      "company_size": ["All sizes"],
+      "use_cases": ["Team outings", "Field work", "Employee recreation", "Brand visibility"]
+    },
+    "benefits": [
+      "Durable construction",
+      "Versatile use",
+      "Brand visibility",
+      "Employee satisfaction"
+    ],
+    "minimum_order": 50,
+    "lead_time": "3-4 weeks"
+  },
+  {
+    "id": 11,
+    "name": "Health & Wellness Kit",
+    "category": "Health & Wellness",
+    "price_range": "$30-$60",
+    "description": "Wellness package including fitness tracker, water bottle, and health materials",
+    "customization_options": {
+      "logo_placement": ["Tracker band", "Bottle", "Packaging"],
+      "colors": ["Black", "Blue", "Green", "Pink", "Orange"],
+      "text_options": ["Company name", "Wellness message", "Health tips"],
+      "contents": ["Fitness tracker", "Water bottle", "Health guide", "Motivational items"]
+    },
+    "target_audience": {
+      "industries": ["Healthcare", "Technology", "Manufacturing", "Corporate wellness"],
+      "company_size": ["100+ employees"],
+      "use_cases": ["Employee wellness programs", "Health initiatives", "Team building"]
+    },
+    "benefits": [
+      "Promotes health",
+      "Employee engagement",
+      "Cost-effective wellness",
+      "Brand association"
+    ],
+    "minimum_order": 100,
+    "lead_time": "3-4 weeks"
+  },
+  {
+    "id": 12,
+    "name": "Presentation Materials Kit",
+    "category": "Business Tools",
+    "price_range": "$40-$80",
+    "description": "Professional presentation kit with portfolio, pens, and business cards",
+    "customization_options": {
+      "logo_placement": ["Portfolio", "Pen", "Business card holder"],
+      "colors": ["Black", "Brown", "Navy", "Gray"],
+      "text_options": ["Company name", "Professional title", "Contact details"],
+      "contents": ["Portfolio", "Pen set", "Business cards", "Notepad"]
+    },
+    "target_audience": {
+      "industries": ["Sales", "Consulting", "Legal", "Finance"],
+      "company_size": ["25+ employees"],
+      "use_cases": ["Sales presentations", "Client meetings", "Professional networking"]
+    },
+    "benefits": [
+      "Professional image",
+      "Complete solution",
+      "Brand consistency",
+      "Sales effectiveness"
+    ],
+    "minimum_order": 25,
+    "lead_time": "3-4 weeks"
+  },
+  {
+    "id": 13,
+    "name": "Holiday Gift Collection",
+    "category": "Seasonal",
+    "price_range": "$20-$50",
+    "description": "Seasonal gift packages with branded items for holidays and special occasions",
+    "customization_options": {
+      "logo_placement": ["Gift packaging", "Items inside", "Gift card"],
+      "colors": ["Seasonal colors", "Company colors", "Traditional holiday colors"],
+      "text_options": ["Company name", "Holiday message", "Personal note"],
+      "themes": ["Christmas", "Thanksgiving", "New Year", "Corporate anniversary"]
+    },
+    "target_audience": {
+      "industries": ["All industries"],
+      "company_size": ["All sizes"],
+      "use_cases": ["Holiday gifts", "Client appreciation", "Employee recognition", "Seasonal promotions"]
+    },
+    "benefits": [
+      "Seasonal relevance",
+      "Client appreciation",
+      "Employee morale",
+      "Brand goodwill"
+    ],
+    "minimum_order": 50,
+    "lead_time": "4-6 weeks"
+  },
+  {
+    "id": 14,
+    "name": "Training & Education Materials",
+    "category": "Educational",
+    "price_range": "$15-$35",
+    "description": "Educational materials including notebooks, pens, and learning resources",
+    "customization_options": {
+      "logo_placement": ["Notebook cover", "Pen", "Learning materials"],
+      "colors": ["Blue", "Green", "Orange", "Purple", "Neutral colors"],
+      "text_options": ["Company name", "Training program", "Educational message"],
+      "contents": ["Notebook", "Pen set", "Study guide", "Reference materials"]
+    },
+    "target_audience": {
+      "industries": ["Education", "Training", "Healthcare", "Technology"],
+      "company_size": ["All sizes"],
+      "use_cases": ["Employee training", "Educational programs", "Professional development"]
+    },
+    "benefits": [
+      "Educational value",
+      "Professional development",
+      "Brand reinforcement",
+      "Learning support"
+    ],
+    "minimum_order": 50,
+    "lead_time": "2-3 weeks"
+  },
+  {
+    "id": 15,
+    "name": "Luxury Gift Basket",
+    "category": "Premium Gifts",
+    "price_range": "$75-$150",
+    "description": "Premium gift basket with high-end branded items for VIP clients and executives",
+    "customization_options": {
+      "logo_placement": ["Basket packaging", "Individual items", "Gift card"],
+      "colors": ["Premium colors", "Company colors", "Luxury finishes"],
+      "text_options": ["Company name", "Personal message", "VIP designation"],
+      "contents": ["Premium pen", "Leather goods", "Gourmet items", "Luxury accessories"]
+    },
+    "target_audience": {
+      "industries": ["Finance", "Legal", "Consulting", "Luxury brands"],
+      "company_size": ["100+ employees"],
+      "use_cases": ["VIP client gifts", "Executive recognition", "Premium partnerships"]
+    },
+    "benefits": [
+      "Premium positioning",
+      "VIP treatment",
+      "Memorable impression",
+      "High perceived value"
+    ],
+    "minimum_order": 10,
+    "lead_time": "4-6 weeks"
+  }
+] 
