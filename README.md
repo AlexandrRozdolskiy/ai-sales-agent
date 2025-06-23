@@ -1,9 +1,11 @@
 # AI Sales Agent PoC
 
 This project is a modern AI-powered sales enablement platform. It combines a FastAPI backend, a professional frontend, and a modular fleet of AI agents to deliver customer intelligence, product recommendations, and personalized outreach at scale.
-<img src="static/1.png" alt="UI Screenshot #1" width="50%">
 
-<img src="static/2.png" alt="UI Screenshot #2" width="50%">
+
+<img src="static/1.png" alt="UI Screenshot #1" width="100%">
+
+<img src="static/2.png" alt="UI Screenshot #2" width="100%">
 ---
 
 ## Features
